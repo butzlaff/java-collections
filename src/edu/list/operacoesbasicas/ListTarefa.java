@@ -34,10 +34,6 @@ public class ListTarefa {
     System.out.println(tarefaList);
   }
 
-  public void removeUmaTarefa(String descricao) {
-    this.tarefaList.remove(descricao);
-  }
-
   public static void main(String[] args) {
     ListTarefa listTarefa = new ListTarefa();
     System.out.println("Número total de tarefas: " + listTarefa.obterNumeroTotalDeTarefas());
